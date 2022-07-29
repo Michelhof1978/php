@@ -1,4 +1,4 @@
-<!--2 FORMULAIRES (UN EN GET ET L AUTRE EN POST)-->
+<!--2-->
 
 <h1>Calculer moyenne</h1>
 

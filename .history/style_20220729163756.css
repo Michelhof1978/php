@@ -1,0 +1,7 @@
+.gauch{
+    float: left;
+}
+
+.clear{
+    clear: both;/* va avec float:left ci-dessus, les infos du personnage seront */
+}

@@ -1,0 +1,7 @@
+.gauche{
+    float: left;/*pour casser le flux standard*/
+}
+
+.clearB{
+    clear: both;/* pour rétablir le fluxva avec float:left ci-dessus, les infos du personnage seront */
+}
