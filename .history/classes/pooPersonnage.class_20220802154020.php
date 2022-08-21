@@ -1,7 +1,7 @@
 <?php
 class Personnage{
     private static $personnages = [];// cette information là sera dispo depuis la class elle même// Toutes les infos seront représentés sous forme de tableau
-
+//Le fait de déclarer des propriétés ou des méthodes comme statiques vous permet d'y accéder sans avoir besoin d'instancier la classe. Celles-ci peuvent alors être accédées statiquement depuis une instance d'objet.
     private $nom;//Propriétés ou attributs des classes
     private $img;
     private $age;//private = sera accéssible de nul part, si ce n'est de la class elle même // public = accécible n'importe où par n'importe qui

@@ -1,0 +1,14 @@
+<?php
+// affichager une liste de fruits
+ class fruit{
+    private $nom; // attribut de la classe/ private= accessible uniquement dans la classe,de pouvoir protéger les attributs de la classe
+    private $prix;
+    private $poids;
+
+    public function __construct($nom,$prix,$poids){
+        $this->nom=$nom;
+        $this->prix=$prix;
+        $this->poids=$poids;
+    }
+ }
+?>
