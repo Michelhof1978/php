@@ -16,7 +16,7 @@ class Fruit{//toujours mettre une majuscule pour les noms de classes
         $this->prix = $this->getPrixFruits($nom);//on appelle la fonction ci dessous qui permet de retourner le prix des fruits
     }
 
-    public function getNom(){//getNom : permet de retourner le nom du fruit, obligation d'utiliser un GETTER pour retourner la valeur de l'attribut car c'est déclarer private
+    public function getNom(){//getNom : permet de retourner le nom du fruit, obligation d'utiliser un GETTER pour retourner la valeur de l'attribut car 
         return $this->nom;
     }
 
